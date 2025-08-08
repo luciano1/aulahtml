@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Contato</title>
+</head>
+<body>
+
+  <h1>Formulário de Contato</h1>
+
+  <form action="#" method="post">
+    
+    <!-- Nome -->
+    <label for="nome">Nome completo:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <!-- Email -->
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Telefone -->
+    <label for="telefone">Telefone:</label><br>
+    <input type="tel" id="telefone" name="telefone"><br><br>
+
+    <!-- Motivo do contato -->
+    <label for="motivo">Motivo do contato:</label><br>
+    <select id="motivo" name="motivo" required>
+      <option value="">Selecione</option>
+      <option value="duvida">Dúvida</option>
+      <option value="reclamacao">Reclamação</option>
+      <option value="sugestao">Sugestão</option>
+      <option value="outro">Outro</option>
+    </select><br><br>
+
+    <!-- Preferência de resposta (RADIO) -->
+    <label>Preferência de resposta:</label><br>
+    <input type="radio" id="emailResp" name="resposta" value="Email">
+    <label for="emailResp">E-mail</label><br>
+    <input type="radio" id="telefoneResp" name="resposta" value="Telefone">
+    <label for="telefoneResp">Telefone</label><br><br>
+
+    <!-- Assuntos de interesse (CHECKBOX) -->
+    <label>Assuntos de interesse:</label><br>
+    <input type="checkbox" id="produtos" name="interesses" value="Produtos">
+    <label for="produtos">Produtos</label><br>
+
+    <input type="checkbox" id="suporte" name="interesses" value="Suporte">
+    <label for="suporte">Suporte</label><br>
+
+    <input type="checkbox" id="promocoes" name="interesses" value="Promoções">
+    <label for="promocoes">Promoções</label><br><br>
+
+    <!-- Mensagem -->
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="40" required></textarea><br><br>
+
+    <!-- Botão -->
+    <input type="submit" value="Enviar">
+
+  </form>
+
+</body>
+</html>
