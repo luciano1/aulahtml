@@ -1,0 +1,32 @@
+h1{
+    color: darkblue;
+}
+h1{
+    color: rgb(236, 123, 18);
+}
+p{
+    color: #7f795e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.destaque{
+    background-color: #7f795e;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: "Sofia", sans-serif;
+}
+#quatro{
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, serif;
+    color: rgb(89, 102, 115);
+
+}
+a {
+  color: red;
+  text-decoration: none;  /* tira o sublinhado */
+}
+a:hover {
+  text-decoration: underline; /* volta o sublinhado ao passar o mouse */
+}
