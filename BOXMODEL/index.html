@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Aula: Box Model</title>
+  <style>
+    /* Estilo da primeira caixa */
+    .caixa1 {
+      background-color: lightyellow;   /* cor de fundo */
+      padding: 20px;                   /* espaçamento interno */
+      border: 3px solid orange;        /* borda */
+      margin: 30px;                    /* espaçamento externo */
+    }
+
+    /* Estilo da segunda caixa */
+    .caixa2 {
+      background-color: lightblue;
+      padding: 50px;                   /* grande espaçamento interno */
+      border: 5px dashed navy;         /* borda tracejada */
+      margin: 10px;                    /* menos espaço externo */
+    }
+
+    /* Estilo da terceira caixa */
+    .caixa3 {
+      background-color: lightgreen;
+      padding: 10px 50px;              /* 10px em cima/baixo, 50px direita/esquerda */
+      border: 4px double green;        /* borda dupla */
+      margin: 40px auto;               /* 40px cima/baixo e centralizado (auto nos lados) */
+      width: 300px;                    /* largura fixa */
+    }
+  </style>
+</head>
+<body>
+  <h1>Exemplos de Box Model</h1>
+
+  <!-- Caixa 1 -->
+  <div class="caixa1">
+    Esta é a <strong>Caixa 1</strong>.  
+    <br>Possui padding de 20px, borda laranja sólida e margin de 30px.
+  </div>
+
+  <!-- Caixa 2 -->
+  <div class="caixa2">
+    Esta é a <strong>Caixa 2</strong>.  
+    <br>Padding de 50px deixa o texto bem afastado da borda.  
+    A borda é azul tracejada e a margem é pequena.
+  </div>
+
+  <!-- Caixa 3 -->
+  <div class="caixa3">
+    Esta é a <strong>Caixa 3</strong>.  
+    <br>Foi centralizada com <code>margin: auto;</code> e tem largura definida de 300px.
+  </div>
+</body>
+</html>
